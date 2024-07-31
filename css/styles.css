@@ -22,3 +22,70 @@ img {
     display: block;
     max-inline-size: 100%;
 }
+
+/* Fonts and variables */
+
+@font-face {
+    font-family: 'norsebold';
+    src: url('../fonts/norse-bold-webfont.woff2') format('woff2'),
+         url('../fonts/norse-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+:root {
+    --plant-img-ratio: 931 / 1396
+}
+
+/* Styles */
+
+body {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    position: relative;
+    width: 30rem;
+    background-image: url("../imgs/plant-bg.jpg");
+    background-size: auto 100%;
+    background-position: center;
+}
+
+.logo {
+    position: absolute;
+    top: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    width: 100%;
+    height: 8rem;
+    background: #00000080;
+}
+
+.logo__img {
+    max-height: 100%;
+}
+
+.logo__text {
+    font-family: 'norsebold', sans-serif;
+    font-size: 5rem;
+    color: white;
+}
+
+.credit {
+    position: absolute;
+    bottom: 0px;
+    padding: 0.5rem;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.credit__link {
+    color: white;
+}
+
+
