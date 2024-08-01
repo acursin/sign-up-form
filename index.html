@@ -18,8 +18,42 @@
         </footer>
     </section>
 
-    <main class="center">
-        
+    <main class="content">
+        <h2 class="big-text">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</h2>
+        <h2 class="big-text">You <em>know</em> you want to.</h2>
+
+        <form class=form action="#" method="post" id="signup">
+            <legend class="big-text">Let's do this!</legend>
+            <ul role="list" class="form__content">
+                <li class="input">
+                    <label class="input__label" for="first_name">FIRST NAME</label>
+                    <input class="textbox" type="text" name="first_name" id="first_name">
+                </li>
+                <li class="input">
+                    <label class="input__label" for="last_name">LAST NAME</label>
+                    <input class="textbox"type="text" name="last_name" id="last_name">
+                </li>
+                <li class="input">
+                    <label class="input__label" for="email">EMAIL</label>
+                    <input class="textbox"type="email" name="email" id="email">
+                </li>
+                <li class="input">
+                    <label class="input__label" for="phone">PHONE NUMBER</label>
+                    <input class="textbox"type="tel" name="phone" id="phone">
+                </li>
+                <li class="input">
+                    <label class="input__label" for="pwd">PASSWORD</label>
+                    <input class="textbox"type="password" name="pwd" id="pwd">
+                </li>
+                <li class="input">
+                    <label class="input__label" for="confirm_pwd">CONFIRM PASSWORD</label>
+                    <input class="textbox"type="password" name="confirm_pwd" id="confirm_pwd">
+                </li>
+            </ul>
+        </form>
+
+        <button class="button" type="submit" form="signup">Create Account</button>
+        <p class="text">Already have an account? <a class="link" href="#">Log in</a></p>
     </main>
 </body>
 </html>
